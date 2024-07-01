@@ -28,6 +28,7 @@ public class Class09 {
         while (x > revertedNumber) {
             revertedNumber = revertedNumber * 10 + x % 10;
             x /= 10;
+            System.out.println(revertedNumber + " " + x);
         }
 
         // 当数字长度为奇数时，我们可以通过 revertedNumber/10 去除处于中位的数字。
@@ -39,7 +40,8 @@ public class Class09 {
 
     public static void main(String[] args) {
         Class09 class09 = new Class09();
-        System.out.println(class09.isPalindrome(10));
+        System.out.println(class09.isPalindrome(12321));
+        System.out.println(class09.isPalindrome(1221));
 //        System.out.println(class09.isPalindrome(1234567899));
         System.out.println(12/10);
         System.out.println(12%10);
