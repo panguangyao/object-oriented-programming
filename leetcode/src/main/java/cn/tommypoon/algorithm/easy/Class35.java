@@ -20,7 +20,7 @@ public class Class35 {
 //        return 0;
         //binary search
         int len = nums.length;
-        int left = 0, right = len - 1, result = 0;
+        int left = 0, right = len - 1, result = len;
         while (left <= right) {
             int mid = (right - left) / 2 + left;//middle position
             if (nums[mid] < target) {
